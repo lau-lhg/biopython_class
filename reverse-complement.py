@@ -1,25 +1,25 @@
 '''
 NAME
 	reverse-complement.py
-    
+
 VERSION
     1.0
-    
+
 AUTHOR
 	Hely Salgado
-    
+
 DESCRIPTION
 	Make the reverse complement of DNA sequence
-    
+
 CATEGORY
 	Genomic Sequence
-    
+
 USAGE
 
-    % python reverse-complement.py -i 
-    
+    % python reverse-complement.py -i filename
+
     example
-    
+
     % python reverse-complement -i
 
 '''
@@ -43,7 +43,7 @@ with open(args['input'],'r') as readFile:
             continue
         else:
             sequence += line.strip()
-    
+
 sequence = sequence.upper()
 
 # Dictionary containing the complement equivalents
