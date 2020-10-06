@@ -16,11 +16,11 @@ CATEGORY
 
 USAGE
 
-    % python reverse-complement.py -i fileName.txt
+    % python reverse-complement.py -i sequence.txt
 
     example
 
-    % python reverse-complement -i sequence.txt
+    % python reverse-complement -i
 
 '''
 
